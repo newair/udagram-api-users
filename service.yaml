@@ -5,6 +5,7 @@ metadata:
   labels:
     run: udagram-api-users
 spec:
+  type: NodePort
   ports:
   - port: 8081
     protocol: TCP
